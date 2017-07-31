@@ -1,0 +1,100 @@
+/*
+Sundeep Brar
+Zenefits Interview Project
+*/
+#carousel{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+#b3day{
+  background-color: #4d4d4d;
+  color:white;
+}
+
+#b5day{
+  background-color: #b3b3b3;
+  color:white;
+}
+
+#b7day{
+  background-color: #b3b3b3;
+  color:white;
+}
+
+#rowHeight {height: 1000px}
+
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+#map-layout{
+  height:100%;
+}
+
+#weather{
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+#weatherText{
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+#nav-title{
+  font-size: 25px;
+}
+
+#cityName{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  #carousel{
+    display: none;
+  }
+
+  #nav-title{
+    font-size: 25px;
+  }
+
+  #weatherIcon{
+    display: inline;
+  }
+
+  #weather{
+    padding-top: 5px;
+    font-size: 15px;
+    display: inline;
+  }
+
+  #weatherText{
+    padding-top: 5px;
+    font-size: 15px;
+    display: inline;
+  }
+
+  #nav-title{
+    font-size: 25px;
+  }
+
+  #cityName{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #map-layout{
+    height:100%;
+  }
+
+  .sidenav {
+    height: 200px;
+    padding: 15px;
+  }
+
+#rowHeight {height: 800px;}
+}

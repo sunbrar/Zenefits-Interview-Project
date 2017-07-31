@@ -1,0 +1,82 @@
+Zenefits Interview Project
+
+This project is a web based application that provides a query box and a search button and thencalls the google maps places library in order to return information about the location
+queried. Once location is queried user will receive information on
+
+Weather of the city that the address is in. This is done through calling Yahoo Weather API.
+Along with weather, user will also get forecast and a weather icon. Weather icon is provided
+from jackd248 on Github under the Creative Commons License. 
+
+	Jackd248 Github: https://github.com/jackd248/weather-iconic
+	Yahoo Weathers API: https://developer.yahoo.com/weather/
+
+User will get locational pictures of area searched if the location is broad. If the location 
+is a specified address, no photos will be returned, as google Places API does not return 
+photos of exact address. Thought was put into finding locational photos of city that the 
+address is located in, but problem occur as the Places Library does not return an exact city 
+variable, but a string array of the whole address that will be needed to be parsed and then 
+another API request redone. Since this is a client side project only, this would be very 
+taxing on the browser, thus such feature was not included. 
+
+User will get Google Maps location of the place search. If the place is not specified, 
+google maps has predetermined location for broad address searches.
+
+	Map API: https://developers.google.com/maps/documentation/javascript/examples/map-simple 
+
+User will get marker showing location on map. Clicking the marker will return information to 
+user about said location. Information includes  sunrise, sunset, humidity, and pressure. 
+Information is obtained through Yahoo Weathers API. 
+
+	Marker API: https://developers.google.com/maps/documentation/javascript/markers
+	Yahoo Weathers API: https://developer.yahoo.com/weather/
+
+User will also get generic web page navigation bar. Bar include placeholder buttons along 
+with login button, that pops up login window for proof of concept. This was done to show 
+features included in the css bootstrap library.  
+
+	Bootstrap Library: http://getbootstrap.com/
+
+PREREQUISITES
+	Web application can be run on any modern web browser.
+
+	Web Browser include:
+		Current version of Microsoft Edge (Windows)
+		Itnernet Explorer 10 and 11 (Windows)
+		Current and Previous Versions of Firefox (Windows, macOS, Linux)
+		Current and Previous Versions of Chrome (Windows, macOS, Linux)
+		Current and Previous versions of Safari (macOS)
+		Current version of Chrome on Android 4.1+
+		Chrome WebView on Android 4.4+
+		Mobile Safari on the current and previous major version of iOS
+		Current version of Chrome for iOS
+
+INSTALLING
+
+	Download folder locally. Open browser of choice, go to file, then open, locate local
+	folder, open index.html.
+
+RUNNING
+	
+	User can enter location of choice in search bar, and either hit search button, or 
+	a location that pops up under the search box. Once search has occured, user can click
+	through photo wheel and interact with the map, including clicking on the marker for
+	information. 
+
+BUILD WITH
+	
+	HTML
+	CSS
+	JavaScript
+	JQuery
+	Google Maps API
+	Google Places API
+	Yahoo Weather API
+	Jackd248 Weather Icons
+	Bootstrap
+
+ACKNOWLEDGEMENTS / THOUGHT
+
+Special thanks to Zenefits for giving me this oppurunity to interview. 
+
+This project contains API keys under personal user account. These keys will be
+deactivated after interview process is completed.
